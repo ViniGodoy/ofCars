@@ -23,7 +23,7 @@ void CarSteps::update()
 	clicked = ofGetMousePressed();
 	mousePos = Vector2D(
 		ofGetMouseX() - ofGetWidth() / 2.0f,
-		ofGetHeight() / 2.0f - ofGetMouseY());
+		ofGetMouseY() - ofGetHeight() / 2.0f);
 
 	if (clicked) {
         mouseScreenClick.set(ofGetMouseX(), ofGetMouseY());
