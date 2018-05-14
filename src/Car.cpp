@@ -13,6 +13,11 @@ Car::Car(Color _color, const Vector2D& initialPosition, float orientation, float
 {
 }
 
+Color Car::getColor() const 
+{
+	return color;
+}
+
 const Vector2D& Car::getPosition() const
 {
 	return position;

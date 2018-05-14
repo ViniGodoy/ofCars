@@ -28,6 +28,8 @@ public:
 		float _maxForce = 350.0f,
 		float _maxSpeed = 500.0f);
 
+	Color getColor() const;
+
 	const Vector2D& getPosition() const;
 	const Vector2D& getVelocity() const;
 	const Vector2D& getDirection() const;
